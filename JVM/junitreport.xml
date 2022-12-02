@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="6" time="555.958219">
+    <testcase classname="As a User, I want to Order the food" name="The user gives the invalid “User name” and “password”" time="64.731638">
+        <system-out><![CDATA[Then To close the website...................................................passed
+Given The user enters the testing site......................................passed
+When click the “Account” button.............................................passed
+And Give the wrong “Username” and “Password”................................passed
+And click the “login” button................................................passed
+And check the output (Invalid Mobile No)....................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="As a User, I want to Order the food" name="The User successfully add the Dosa" time="85.434814">
+        <system-out><![CDATA[Then To close the website...................................................passed
+Given that I am logged in as a user and on the home page....................passed
+When I see the “HOME” button on the page and click it.......................passed
+And I see a dropdown labeled “Dosa”.........................................passed
+And Click the dosa button...................................................passed
+And select the “Masala Dosa” option.........................................passed
+And Enter the page and check the “Available Time”...........................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="As a User, I want to Order the food" name="The user fills out the registration form and ignores the confirm password." time="139.877308">
+        <system-out><![CDATA[Then To close the website...................................................passed
+Given that I am logged in as a user and on the home page....................passed
+When Miximise the window....................................................passed
+And click the Account button................................................passed
+And Fill out the registration form with dummy data. (name, phone number, email…)..passed
+And Skip the “confirm password” text label..................................passed
+And click the register button...............................................passed
+And Get the pop-up “Please fill out the field”..............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="As a User, I want to Order the food" name="The user search for the “Coke” can and check the price" time="86.796602">
+        <system-out><![CDATA[Then To close the website...................................................passed
+Given That I am logged in as a user and on the home page....................passed
+When Click the “search” icon................................................passed
+And search “Coffee” and check the can dollar is “$ 1.50”....................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="As a User, I want to Order the food" name="The user selects the “Spanish Omelet”." time="99.486167">
+        <system-out><![CDATA[Then To close the website...................................................passed
+Given That I am logged in as a user and on the homepage.....................passed
+When To click the “search” icon.............................................passed
+And Find out the “Spanish Omelet” and Click the icon........................passed
+And Select the option by probability........................................passed
+And check the dollar probability............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="As a User, I want to Order the food" name="The user read “Our Story”" time="79.63169">
+        <system-out><![CDATA[Then To close the website...................................................passed
+Given that I am logged in as a user and on the Home page....................passed
+When Click the “Our Story” option...........................................passed
+And Check the spelling mistake..............................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
